@@ -1,12 +1,13 @@
-#N struct 1004-scope float x float y float x1 float y1 float c1 float
-c2 float c3 float c4 array vector-min 1004-scope-element array vector-max
-1004-scope-element float curx;
+#N struct 1004-scope float x float y float x1 float y1 float c1 float c2 float c3 float c4 array vector-min 1004-scope-element array vector-max 1004-scope-element float curx;
 #N struct 1004-scope-element float y;
-#N struct 1109-scope float x float y float x1 float y1 float c1 float
-c2 float c3 float c4 array vector-min 1109-scope-element array vector-max
-1109-scope-element float curx;
-#N struct 1109-scope-element float y;
 #N canvas 157 146 835 687 12;
-#X obj 36 34 ys.granular_main 1;
-#X obj 432 37 ys.granular_main 2;
-#X text 38 546 yann seznec // 2023 // yannseznec.com;
+#X obj 19 39 ys.granular.view gran1;
+#X obj 19 559 ys.granular.model gran1;
+#X obj 19 639 ossia.device;
+#X msg 19 599 register;
+#X text 19 718 yann seznec // 2023 // yannseznec.com;
+#X msg 457 625 name ys.granular;
+#X msg 179 579 expose oscquery;
+#X connect 3 0 2 0 empty;
+#X connect 5 0 2 0 empty;
+#X connect 6 0 2 0 empty;
