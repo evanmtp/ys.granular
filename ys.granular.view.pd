@@ -32,7 +32,7 @@
 #X obj 374 273 tgl 15 1 empty empty reverse\ random 17 7 1 10 #9bc9dd #000000 #ffffff 0 1;
 #X obj 453 305 bng 15 250 50 0 empty empty empty 17 7 1 10 #9bc9dd #000000 #000000;
 #X obj 323 336 hsl 128 15 0 1 0 1 empty empty pitch\ random -2 -4 1 10 #9bc9dd #ffffff #ffffff 0 1;
-#X obj 322 359 hsl 128 15 0.001 1 0 1 empty empty grain\ size -2 -4 1 10 #eab8fe #ffffff #ffffff 6344 1;
+#X obj 322 368 hsl 128 15 0.001 1 0 1 empty empty grain\ size -2 -4 1 10 #eab8fe #ffffff #ffffff 6344 1;
 #X obj 323 400 hsl 128 15 0.002 1 0 1 empty empty grain\ density -2 -4 1 10 #eab8fe #ffffff #ffffff 3156 1;
 #X obj 323 429 hsl 128 15 0 1 0 1 empty empty grainplay\ chance -2 -4 1 10 #eab8fe #ffffff #ffffff 12700 1;
 #X obj 572 121 vu 8 80 \$1-input_vu-L empty 20 10 1 24 #404040 #000000 0 0;
